@@ -1,0 +1,29 @@
+\documentclass{article}
+
+
+\title{Labwork 1}
+\author{Tran Ngoc Thanh Binh}
+\date{May 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Implementation}
+\begin{itemize}
+    \item 2 functions f(x) and f\_(x) to find the value of f(x) and f'(x)
+    \item For this lab, example gives f(x) = x$^2$ so f'(x) = 2x
+    \item Calculate the new value of x using the gradient descent formula: x = x - R * f’(x). Loop that 10 times
+    \item Print the value of x and f(x) each time
+\end{itemize}
+
+
+\section{Analyze the learning rate}
+\begin{itemize}
+    \item When the learning rate r at 0.01, too small number makes the f(x) large, still around 70.
+    \item When the learning rate r at 0.1, number around this makes the diversity look clearer.
+    \item At 0.5, all 0.
+    \item At 0.99, the number too large makes the f(x) same as 0.1, but x can be negative.
+\end{itemize}
+
+\end{document}
