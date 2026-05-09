@@ -1,11 +1,7 @@
 from pathlib import Path
 import math
 import csv
-
-try:
-    from matplotlib import pyplot as plt
-except ModuleNotFoundError:
-    plt = None
+from matplotlib import pyplot as plt
 
 
 def read_csv(file_name: str):
